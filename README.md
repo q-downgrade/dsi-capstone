@@ -35,11 +35,11 @@ The data for this project was found on Kaggle, and contained information for 20,
 
 A base model for this project would be about 44% accurate if it just guessed medium light complexity for all games in the dataset. Using a Voting Classifier model I was able to find a model that is 66% accurate. Overall, there was not as much correlation between the mechanics or categories of a game and its complexity. The models did produce some interesting results in terms of their coefficients, however.
 
-[light complexity chart](/images/light-complexity.png)
+![light complexity chart](/images/light-complexity.png)
 
 I found that mature or adult games were most likely to be lightly complex, or the simplest of all the classes in the dataset. This is likely because these games are made to be played in more social settings where players may be impaired or are otherwise not focused entirely on the game at hand. Games like Cards Against Humanity are a good example of this, where the goal of the game is simply to make the best somewhat-offensive, somewhat-adult jokes with the cards given.
 
-[heavy complexity chart](/images/heavy-complexity.png)
+![heavy complexity chart](/images/heavy-complexity.png)
 
 Through the project I also found that, unsurprisingly, war games are among the most complex games available. This makes sense as many war games involve complicated math for combat and complicated rules for how to move individual units. That's on top of a large number of rulebooks, expansions, and miniatures that players need to buy, and in the case of the miniatures, paint, in order to play those games.
 
