@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Predict-O-Matic</title>
+</head>
+<body>
+	<form action="/submit">
+		<p>
+			<label for="minplayers">Minimum Number of Players</label><br>
+			<input type="number" name="minplayers">
+		</p>
+		<p>
+			<label for="maxplayers">Maximum Number of Players</label><br>
+			<input type="number" name="maxplayers">
+		</p>		
+		<p>
+			<label for="minplaytime">Minimum Play Time</label><br>
+			<input type="number" name="minplaytime">
+		</p>
+		<p>
+			<label for="maxplaytime">Maximum Play Time</label><br>
+			<input type="number" name="maxplaytime">
+		</p>
+        <p>
+			<label for="minage">Minimum Age</label><br>
+			<input type="number" name="minage">
+        </p>
+        <p>
+			<label for="boardgamecategory_cnt">Number of Categories</label><br>
+			<input type="number" name="boardgamecategory_cnt">
+        </p>
+        <p>
+			<label for="boardgamemechanic_cnt">Number of Mechanics</label><br>
+			<input type="number" name="boardgamemechanic_cnt">
+        </p>
+          <p>Select Mechanics</p>
+            <form id="form1" action="/login" method="POST" enctype="multipart/form-data">
+            <select id="mySelect" name = "cars">
+            <option value="Mechanic Action Points">Action Points</option>
+            <option value="Mechanic Alliances">Alliances</option>
+            <option value="Mechanic Area Majority / Influence">Area Majority / Influence</option>
+            <option value="Mechanic Betting and Bluffing">Betting and Bluffing</option>
+            <option value="Mechanic Campaign / Battle Card Driven">Campaign / Battle Card Driven</option>
+            <option value="Mechanic Contracts">Contracts</option>
+            <option value="Mechanic Cooperative Game">Cooperative Game</option>
+            <option value="Mechanic Crayon Rail System">Crayon Rail System</option>
+            <option value="Mechanic End Game Bonuses">End Game Bonuses</option>
+            <option value="Mechanic Hexagon Grid">Hexagon Grid</option>
+            <option value="Mechanic Memory">Memory</option>
+            <option value="Mechanic Network and Route Building">Network and Route Building</option>
+            <option value="Mechanic Paper-and-Pencil">Paper-and-Pencil</option>
+            <option value="Mechanic Pattern Recognition">Pattern Recognition</option>
+            <option value="Mechanic Player Elimination">Player Elmination</option>
+            <option value="Mechanic Push Your Luck">Push Your Luck</option>
+            <option value="Mechanic Rock-Paper-Scissors">Rock-Paper-Scissors</option>
+            <option value="Mechanic Roll / Spin and Move">Roll / Spin and Move</option>
+            <option value="Mechanic Storytelling">Storytelling</option>
+            <option value="Mechanic Variable Phase Order">Variable Phase Order</option>
+            <option value="Mechanic Variable Player Powers">Variable Player Powers</option>
+            <option value="Mechanic Other">Other</option>
+          </select>
+          <p>Select Categories</p>
+            <form id="form1" action="/login" method="POST" enctype="multipart/form-data">
+            <select id="mySelect" name = "cars">
+            <option value="Category Action / Dexterity">Action / Dexterity</option>
+            <option value="Category Age of Reason">Age of Reason</option>
+            <option value="Category American Revolutionary War">American Revolutionary War</option>
+            <option value="Category Card Game">Card Game</option>
+            <option value="Category Civilization">Civilization</option>
+            <option value="Category Deduction">Deduction</option>
+            <option value="Category Economic">Economic</option>
+            <option value="Category Expansion for Base-game">Expansion for Base-game</option>
+            <option value="Category Humor">Humor</option>
+            <option value="Category Korean War">Korean War</option>
+            <option value="Category Math">Math</option>
+            <option value="Category Mature / Adult">Mature / Adult</option>
+            <option value="Category Medical">Medical</option>
+            <option value="Category Medieval">Medieval</option>
+            <option value="Category Miniatures">Miniatures</option>
+            <option value="Category Murder/Mystery">Murder/Mystery</option>
+            <option value="Category Napoleonic">Napoleonic</option>
+            <option value="Category Party Game">Party Game</option>
+            <option value="Category Pike and Shot">Pike and Shot</option>
+            <option value="Category Puzzle">Puzzle</option>
+            <option value="Category Racing">Racing</option>
+            <option value="Category Renaissance">Renaissance</option>
+            <option value="Category Territory Building">Territory Building</option>
+            <option value="Category Trains">Trains</option>
+            <option value="Category Vietnam War">Vietnam War</option>
+            <option value="Category Wargame">Wargame</option>
+            <option value="Category Word Game">Word Game</option>
+            <option value="Category Other">Other</option>
+            </select>
+        <p><button type="submit">Submit</button></p>
+	</form>
+</body>
+</html>
