@@ -45,7 +45,7 @@ Through the project I also found that, unsurprisingly, war games are among the m
 
 # Production
 
-I used flask to deploy a production model based on the models used. The production model uses a condensed number of features that either weren't very important to any models used or that were potentially confusing for users. The end result was a model that was about as accurate and any model in the main project. The flask app for the production model can be found in the "flask" folder. The deployed app can be found on Heroku [here](https://board-game-complexity.herokuapp.com/).
+I used flask to deploy a production model based on the models used. The production model uses a condensed number of features that either weren't very important to any models used or that were potentially confusing for users. The end result was a model that was about as accurate and any model in the main project. The flask app for the production model can be found in [this repo](https://github.com/q-downgrade/board-game-complexity-predictor). The deployed app can be found on Heroku [here](https://board-game-complexity.herokuapp.com/).
 
 # Conclusion
 While there is some correlation between the mechanics and categories of board games and their complexity, there isn't enough of a correlation to have a significantly accurate model. Even the best model I was able to build only had an accuracy of about 66%. Information that seemed like it might have a big impact on the reults like the suggested minimum age of players or the language dependency of the game didn't seem to have much of an impact on the accuracy of the models. My idea that these things would make it easy for a designer to find out how complex a game they're designing is didn't work out as planned.
